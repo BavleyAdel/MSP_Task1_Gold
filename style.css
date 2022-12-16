@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(0, 7, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    position: absolute;
+    max-height: 70%;
+    width: 70%;
+    border-radius: 3%;
+    background-color: rgb(0, 8, 86);
+    box-shadow: 3px 3PX 10PX 5PX rgb(0 8 72);
+    left: 14%;
+    top: 12%;
+    color: white;
+    overflow-y: auto;
+    background-image: url("IMG-20221209-WA0001.jpg");
+}
+
+.formDiv {
+    display: inline-block;
+    width: 60%;
+    padding: 5% 0% 5% 5%;
+}
+
+.formDiv form {
+    position: relative;
+    margin-top: 7%;
+    padding: 0% 5% 0% 0%;
+}
+
+.field {
+    display: flex;
+}
+
+#right_img {
+    display: inline-block;
+    position: absolute;
+    background-image: url("IMG-20221209-WA0001.jpg");
+    background-size: cover;
+    background-position: center;
+    right: 0;
+    height: 100%;
+    width: 35.3%;
+    border-radius: 0px 3% 3% 0px;
+    box-shadow: -3px 0px 94px -27px #fff;
+}
+
+.headings {
+    display: inline-block;
+    position: relative;
+    font-size: 1.7vw;
+}
+
+#msp-logo {
+    position: relative;
+    display: inline-block;
+}
+
+.heads {
+    position: relative;
+    margin: 3% 0%;
+    text-align: center;
+}
+
+.input-style {
+    background-color: rgb(2, 33, 96);
+    width: 45%;
+    padding: 3%;
+    margin: 1.5% 1%;
+    border: none;
+}
+
+#gender {
+    display: inline-block;
+    margin: 1%;
+}
+
+.radio-button {
+    margin-left: calc(53%/2);
+}
+
+#e_mail {
+    width: 92%;
+}
+
+.btn {
+    display: block;
+    width: 90%;
+    margin: 3% 0% 3% 4%; 
+    background-color: rgb(1, 163, 241);
+    color: rgb(0, 8, 86);
+    box-shadow: 1px 1px 7px 1px rgb(1, 163, 241);
+    cursor: pointer;
+}
+
+.background-effect{
+    backdrop-filter: blur(50px);
+}
